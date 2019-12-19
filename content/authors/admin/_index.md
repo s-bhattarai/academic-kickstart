@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nelson Bighetti
+name: Santosh Bhattarai
 
 # Username (this should match the folder name)
 authors:
@@ -10,66 +10,67 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Lecturer in Space Geodesy & Navigation
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: Department of Civil, Environmental and Geomatic Engineering
+  url: "https://www.ucl.ac.uk/civil-environmental-geomatic-engineering/"
+- name: University College London
+  url: "https://www.ucl.ac.uk"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include satellite systems, astrodynamics and precise orbit determination.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Satellite Systems
+- Astrodynamics
+- Precise Orbit Determination
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - course: PhD in Global Navigation Satellite Systems
+    institution: University College London
+    year: 2015
+  - course: BSc in Mathematics and Physics
+    institution: University of York
     year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
 
 # Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
+# For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
+  link: "mailto:s.bhattarai@ucl.ac.uk"  # For a direct email link, use "mailto:test@example.org".
+- icon: linkedin
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://www.linkedin.com/in/santosh-bhattarai-05476345
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.com/citations?user=bBGOgjAAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/s-bhattarai
 # Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
+- icon: cv
+  icon_pack: ai
+  link: files/Bhattarai_S_CV_Nov2019.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
-
+  
 # Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
+#   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
 - Researchers
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I am a lecturer in space geodesy in the Department of Civil, 
+Environmental and Geomatic Engineering (CEGE) at University College London 
+(UCL) with research interests in astrodynamics and space debris dynamics for
+orbit prediction and orbit determination, and also, in various aspects of 
+global navigation satellite systems (GNSS) and related technologies. If you're still reading (:+1:) and want to know more, have a look at my {{% staticref "files/Bhattarai_S_CV_Nov2019.pdf" "newtab" %}}CV{{% /staticref %}}. I teach Mathematical Modelling and Analysis to first and second year undergraduates in the [MEng in Engineering and Architectural Design Programme](https://www.ucl.ac.uk/bartlett/architecture/programmes/undergraduate/engineering-and-architectural-design-meng) and contribute to teaching on various modules in CEGE. Please reach out if you're interested in collaborating!

@@ -1,0 +1,76 @@
+**MATLAB for BARC0130 AMMA: Session 1**
+	S. Bhattarai
+
+# Getting Started
+
+For this module, it will be massively beneficial for you to have an 
+up-to-date (2017 onwards) version of MATLAB running on your personal laptop, which 
+you are encouraged to bring along to all of the problem-solving workshops. 
+
+Check [here](https://uk.mathworks.com/support/sysreq.html) 
+to check whether or not your laptop meets the minimum system requirements 
+for running MATLAB 2018a. If you don't have one already, create a [Mathworks](https://uk.mathworks.com/login) 
+account using your UCL email address. 
+Download the MATLAB file(s) required for installing MATLAB 2018a from the [UCL Software Database](https://swdb.ucl.ac.uk).
+
+!!!WARNING
+   Windows and Linux users are required to download **two** files, MacOS users 
+   only need to download one. The overall size of the download file is about **12GB**.
+   
+   *Make sure you have enough space on your hard drive before you start the download!* 
+
+If you already have a previous version on MATLAB installed on your computer, 
+you can either continue to work with that or update your installation to 
+the latest release according to the instructions given [here](https://uk.mathworks.com/help/install/ug/update-an-existing-installation.html).
+
+!!!
+   These course notes were developed using MATLAB 2018a.
+
+When you run through the MATLAB installer, you will have the option to configure your installation. For the moment, I suggest you install the following:
+
+- MATLAB (obviously)
+- Symbolic Math Toolbox
+- Statistics and Machine Learning Toolbox
+
+It is easy enough to install other toolboxes later on, if and when you require them.
+
+# Reviewing MATLAB basics with an example
+
+To help you refamiliarise yourself with MATLAB, 
+we will run through a simple MATLAB workflow that involves
+loading a data set from an Excel (.xlsx) file into your local MATLAB environment,
+and analysing that data set using in-built MATLAB functions for summarising 
+and visualising those data sets. This year, as much as possible, we will aim 
+to solve problems using programming. So you will be discouraged from 
+using methods that rely on the Graphical User Interface (GUI), and you will 
+be encouraged to write scripts and functions (.m files) that you can use, 
+develop and re-use throughout the module. 
+
+## The MATLAB Environment
+
+But first, let's make sure we set up a MATLAB Integrated Development Environment (IDE) that is appropriate for our needs in this module. Most of the time, it should look like figure [frMatlabIDE] below:
+
+![Figure [frMatlabIDE]: MATLAB Integrated Development Environment](images/matlab_ide_setup.png)
+
+The most important components of the MATLAB IDE are the Editor, the Command Window, the Workspace and the Current Folder section. If you aren't able to see any of these sections, check the layout button on the Home Tab. There are some options there for organising the layout of your MATLAB IDE. 
+
+Editor
+:	This is the MATLAB text editor where scripts and functions are written. You can write MATLAB scripts and functions in any text editor you like, but its easier to stick with the default editor within the MATLAB IDE. 
+
+Command Window
+:	In-built MATLAB functions and user-built scripts or functions can be directly called from the command window. 
+
+Workspace
+:	When variables are created, they show up in the Workspace. You can explore the properties of those variables from within the Workspace.
+
+Current Folder
+:	Self-explanatory, shows the files and folders in your current working directory. Sometimes, you may want to access resources (e.g. data files, functions) that are not in the current folder or in any of the folder in the MATLAB path. In that case, you should be able to identify where the relative path of the resources in relation to the current working directory.
+
+
+## A Simple Example 
+
+We are now ready to work through a simple data processing exercise. You will need to
+download this [MATLAB script](matlab/amma_matlab_t2.m) and this [data file](datasets/attendance_vs_score.xlsx). We will go through this script in class.
+
+
+<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js"></script><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
